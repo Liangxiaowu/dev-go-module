@@ -1,6 +1,6 @@
 ### Go 发布Go Module 依赖管理 (同步到github)
 
-从Go1.11开始加入了对Go Module的支持，Go1.13开始Go Module成为了Go默认切推荐的包依赖管理方式。至今已有非常多的开源项目包支持Go Module，对Go Module感兴趣的可以移步到:https://golang.google.cn/ref/mod
+从Go1.11开始加入了对Go Module的支持，Go1.13开始Go Module成为了Go默认切推荐的包依赖管理方式。至今已有非常多的开源项目包支持Go Module，对Go Module感兴趣的可以移步到:[https://golang.google.cn/ref/mod](https://golang.google.cn/ref/mod)
 
 #### 创建项目
 
@@ -41,8 +41,8 @@ win:
 需要运行`go mod init`命令来初始化项目
 
 ```go
-go mod init dev-go-module
-go: creating new go.mod: module dev-go-module // 成功后的结果
+go mod init  github.com/Liangxiaowu/dev-go-module
+go: creating new go.mod: module github.com/Liangxiaowu/dev-go-module // 成功后的结果
 ```
 
 成功后目录下面会出现`go.mod`文件
